@@ -53,6 +53,7 @@
     <LinkIncremental>false</LinkIncremental>
     <LibraryPath>libaec;$(LibraryPath)</LibraryPath>
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);libaec/include</IncludePath>
+    <TargetName>satdecompress</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
