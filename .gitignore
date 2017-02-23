@@ -3,3 +3,5 @@ Debug/*
 *.VC.db
 *.VC.opendb
 .vs
+build
+libaec

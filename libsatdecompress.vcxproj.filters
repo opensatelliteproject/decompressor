@@ -15,27 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PacketDecompression.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="RiceDecompression.h">
+    <ClInclude Include="decompresslib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Decompress.cpp">
+    <ClCompile Include="decompresslib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
